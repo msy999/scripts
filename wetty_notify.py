@@ -12,7 +12,7 @@ TELEGRAM_API_URL = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessag
 # 위치 API
 IPINFO_API_URL = "http://ipinfo.io/{}/json"
 OPENCAGE_API_URL = "https://api.opencagedata.com/geocode/v1/json"
-OPENCAGE_API_KEY = "356e9f44f71d4563b706951a8dd0f6aa"
+OPENCAGE_API_KEY = "111111111111111111111"
 
 notified_ips = OrderedDict()
 failed_ips = set()
