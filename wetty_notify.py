@@ -5,8 +5,8 @@ from datetime import datetime, timedelta
 from collections import OrderedDict
 
 # 텔레그램 설정값
-TELEGRAM_BOT_TOKEN = "1111111:2222222222222222222222222"
-TELEGRAM_CHAT_ID = "333333333333333"
+TELEGRAM_BOT_TOKEN = "YOUR_BOT_API_TOKEN"
+TELEGRAM_CHAT_ID = "YOUR_CHAT_ID"
 TELEGRAM_API_URL = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
 
 # 위치 API
@@ -136,4 +136,3 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
-
